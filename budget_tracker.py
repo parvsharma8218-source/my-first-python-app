@@ -25,7 +25,7 @@ def calculate_budget():
     print("------------------------------------")
     print(f"Total Income:       ${income:,. 2f}")
     print(f"Remaining Balance:  ${remaining_balance:,.2f}")
-    print(f"Savings Rate:       ${savings_rate:.1f}%"
+    print(f"Savings Rate:       ${savings_rate:.1f}%")
 
     # Category Breakdown Percentages
     if total_expenses > 0:
