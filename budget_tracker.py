@@ -17,7 +17,7 @@ def calculate_budget():
 
     # Calculations
     total_expenses = food + entertainment + bills + other
-    remaining balance = income - total_expenses
+    remaining_balance = income - total_expenses
     savings_rate = (remaining_balance / income * 100) if income > 0 else 0
     # Summary report
     print("\n----------------------------------")
