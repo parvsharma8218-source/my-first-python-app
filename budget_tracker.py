@@ -31,7 +31,7 @@ def calculate_budget():
     if total_expenses > 0:
         print("\n--- Expense Breakdown ---")
         print(f" Food:       {(food / total_expenses * 100):.1f}%")
-        print(f" Entertainment {(entertainment / total expenses * 100):.1f%")}")
+        print(f" Entertainment {(entertainment / total expenses * 100):.1f%"}")
         print(f" Bills:          {(bills / total_expenses * 100):.1f}%")
         print(f" Other:         {(other / total_expenses * 100):.1f}%")
 
