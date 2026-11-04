@@ -23,7 +23,7 @@ def calculate_budget():
     print("\n----------------------------------")
     print("     FINANCIAL SUMMARY              ")
     print("------------------------------------")
-    print(f"Total Income:       ${income:,. 2f}")
+    print(f"Total Income:       ${income:,.2f}")
     print(f"Remaining Balance:  ${remaining_balance:,.2f}")
     print(f"Savings Rate:       ${savings_rate:.1f}%")
 
@@ -31,13 +31,13 @@ def calculate_budget():
     if total_expenses > 0:
         print("\n--- Expense Breakdown ---")
         print(f" Food:       {(food / total_expenses * 100):.1f}%")
-        print(f" Entertainment {(entertainment / total expenses * 100):.1f%"})
+        print(f" Entertainment {(entertainment / total_expenses * 100):.1f%"})
         print(f" Bills:          {(bills / total_expenses * 100):.1f}%")
         print(f" Other:         {(other / total_expenses * 100):.1f}%")
 
        # Financial Status Advice 
        print("\n---Status ---")
-       if remaining balance > 0:
+       if remaining_balance > 0:
            print("Great job! You are living within your budget")
        elif remaining_balance == 0:
            print("You broke even this month. Try saving more next time")
