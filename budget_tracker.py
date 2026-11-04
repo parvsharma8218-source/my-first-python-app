@@ -35,11 +35,11 @@ def calculate_budget():
         print(f" Bills:          {(bills / total_expenses * 100):.1f}%")
         print(f" Other:         {(other / total_expenses * 100):.1f}%")
 
-       # Financial Status Advice 
-       print("\n---Status ---")
-       if remaining_balance > 0:
+    # Financial Status Advice 
+    print("\n---Status ---")
+    if remaining_balance > 0:
            print("Great job! You are living within your budget")
-       elif remaining_balance == 0:
+    elif remaining_balance == 0:
            print("You broke even this month. Try saving more next time")
        else:
           print("Warning: You are over budget! Consider reducing unnecessary costs")
