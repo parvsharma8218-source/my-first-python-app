@@ -45,8 +45,8 @@ def calculate_budget():
           print("Warning: You are over budget! Consider reducing unnecessary costs")
     print("=============================================")
 
-    if __name__ == "__main__":
-        calculate_budget()
+        if __name__ == "__main__":
+            calculate_budget()
         
 
      
