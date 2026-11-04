@@ -46,7 +46,7 @@ def calculate_budget():
     print("=============================================")
 
     if __name__ == "__main__":
-    calculate_budget()
+        calculate_budget()
         
 
      
