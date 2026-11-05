@@ -4,11 +4,9 @@ def calculate_budget():
     print("========================================")
     print("     PERSONAL BUDGET CALCULATOR         ")    
     print("========================================")
-    
+        
     # Get total monthly income
     income = float(input(" Enter your total monthly income ($): "))
-
-    # Get expense amounts by category 
     print("\nEnter your total spending for each category")
     food = float(input(" Food & Snacks ($): "))
     entertainment = float(input(" Entertainment & Fun ($): "))
