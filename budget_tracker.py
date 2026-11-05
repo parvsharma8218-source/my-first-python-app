@@ -36,11 +36,11 @@ def calculate_budget():
     # Financial Status Advice 
     print("\n---Status ---")
     if remaining_balance > 0:
-           print("Great job! You are living within your budget")
+       print("Great job! You are living within your budget")
     elif remaining_balance == 0:
-           print("You broke even this month. Try saving more next time")
+       print("You broke even this month. Try saving more next time")
     else:
-          print("Warning: You are over budget! Consider reducing unnecessary costs")
+       print("Warning: You are over budget! Consider reducing unnecessary costs")
     print("=============================================")
 
 if __name__ == "__main__":
