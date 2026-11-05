@@ -45,8 +45,3 @@ def calculate_budget():
 
 if __name__ == "__main__":
     calculate_budget()
-        
-
-     
-
-
