@@ -21,8 +21,8 @@ def calculate_budget():
     print("\n----------------------------------")
     print("     FINANCIAL SUMMARY              ")
     print("------------------------------------")
-    print(f"Total Income:       {income:,.2f}")
-    print(f"Remaining Balance:  {remaining_balance:,.2f}")
+    print(f"Total Income:       ${income:,.2f}")
+    print(f"Remaining Balance:  ${remaining_balance:,.2f}")
     print(f"Savings Rate:       {savings_rate:.1f}%")
 
     # Category Breakdown Percentages
